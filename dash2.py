@@ -5,7 +5,7 @@ import plotly
 
 st.title('Speech Language Pathology Burn Out?')
 
-dspl = pd.read_csv('Data\SPLv2.csv')
+dspl = pd.read_csv('SPLv2.csv')
 
 st.dataframe(dspl)
 
